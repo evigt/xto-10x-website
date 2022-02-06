@@ -1,0 +1,490 @@
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  #header{
+    padding: 20px 0;
+  }
+  .logo img{
+    width: 132px;
+    height: 47px;
+  }
+  #banner{
+    padding: 130px 0;
+  }
+  .banner-title{
+    position: relative;
+  }
+  .banner-title::before{
+    content: '';
+    width: 380px;
+    height: 160px;
+    background-image: url(../images/pattern-5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -37px;
+    right: 60px;
+    z-index: -1;
+  }
+  .banner-title h1{
+    color: #202124;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: .9px;
+  }
+  .banner-subtitle{
+    color: #6c6d6f;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.7em;
+    margin-bottom: 44px;
+  }
+  .banner-form input[type='text']{
+    color: #72737d;
+    line-height: 2em;
+    letter-spacing: .16px;
+    border: 1.5px solid #eaebf0;
+    border-radius: 6px;
+    padding: 10px 20px;
+  }
+  .banner-form .btn{
+    width: 35%;
+    background: #cb202d;
+    color: #fff;
+    font-weight: 600;
+    line-height: 2em;
+    letter-spacing: .32px;
+    border-radius: 6px;
+    padding: 9px 0;
+    margin-left: 8px;
+    transition: all .15s ease-in-out;
+  }
+  .banner-form .btn:hover{
+    background: #ee4b4b;
+  }
+  .banner-img img{
+    max-width: 460px;
+  }
+  .section-heading{
+    color: #202124;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product-list{
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  .product-list li{
+    display: inline-block;
+    margin-right: 48px;
+  }
+  .product-list li a{
+    background-color: #fff;
+    color: #6c6d6f;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    border-radius: 6px;
+    padding: 12px 24px;
+  }
+  .product-list li a.active{
+    background-color: #ebf6ff;
+    color: #202124;
+    font-weight: 700;
+  }
+  .product-box{
+    border: 2px solid #ffeaea;
+    border-radius: 16px;
+    padding: 48px 40px 0;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  }
+  .product-box:hover{
+    border: 2px solid #ff9696;
+    box-shadow: 0px 60px 100px rgb(234 235 240 / 60%);
+  }
+  .product-box h3{
+    color: #202124;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 12px;
+  }
+  .product-box span{
+    color: #202124;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em;
+    height: 63px;
+    margin: 0;
+    display: block;
+  }
+  .product-box p{
+    color: #6c6d6f;
+    font-size: 14px;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+  }
+  .product-btn{
+    margin-bottom: 32px;
+  }
+  .product-btn a{
+    color: #df2e2e;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing: .2px;
+  }
+  .product-img img{
+    width: 100%;
+    border-style: solid;
+    border-width: 2px 2px 0;
+    border-color: #ffe0e0;
+    border-radius: 10px 10px 0 0;
+  }
+  #footer-widget{
+    padding: 84px 0 88px;
+  }
+  .widget-box .widget-title{
+    color: #202124;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.38em;
+    letter-spacing: .32px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .widget-box .widget-title::after{
+    content: '';
+    width: 125px;
+    border-bottom: 1px solid #c8c9d1;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+  }
+  .widget-list li{
+    padding-bottom: calc(14px/2);
+    margin-top: calc(14px/2);
+  }
+  .widget-list li a{
+    color: #6c6d6f;
+    font-weight: 500;
+  }
+  .OUR-SERVICES{
+      display: flex;
+  }
+
+  .goal{
+    padding-top: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+    font-family: "IBM Plex Sans",Sans-serif;
+  }
+  .OUR-PRODUCTS{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans",Sans-serif;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }    
+    
+    
+    .future {
+        padding-left: 60px;
+    }
+    
+    body {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .our-beliefs{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .our-vision{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .people{
+        padding-top: 120px;
+
+    }
+    .ourteams{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-family: "IBM Plex Serif",Sans-serif;
+    }
+    .our-core {
+        padding-left: 10px;
+        padding-right: 108px;
+    }
+    .widget-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    body{
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .Operations{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .bestClass
+    {    color: #6c6d6f;
+        font-family: "IBM Plex Sans";
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 38px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+        .Email{
+            padding: 10px 20px 10px 20px;
+            /* border-radius: 20px; */
+            /* border: solid; */
+            background-color: #fff;
+            height: 60px;
+        color: #72737d;
+        border-style: solid;
+        border-width: 1.5px;
+        border-color: #eaebf0;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-family: "IBM Plex Sans",Sans-serif;
+        font-size: 16px;
+        line-height: 2em;
+        letter-spacing: .16px;
+        }
+        .identity{
+            background-color: #cb202d !important;
+        color: #fff !important;
+        height: 60px;
+        border-radius: 6px;
+        padding: 12px 42px 12px 42px;
+        font-family: "IBM Plex Sans",Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        border: solid 0px;
+        /* text-transform: none; */
+        /* line-height: 2em; */
+        /* letter-spacing: .32px; */
+        }
+        .talkus{
+            background-color: #cb202d ;
+            height: 60px;
+        }
+        .aproach{
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .learnt{
+            font-size: 17px;
+        }
+        .excellence{
+            padding: 120px 129px 45px 129px;
+        }
+        .srvr{
+            width: 150px;
+            padding-bottom: 20px;
+        }
+        .Enable-stability{
+            padding: 0px 70px 0px 70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .widget-title{
+            font-size: 16px;
+            font-weight: 700;
+            color: #202124;
+        }
+        .product{
+            list-style: none;
+            padding: 0px;
+        }
+        .list{
+            padding-right: 132px;
+        }
+        .lists{
+            margin-right: 320px;
+        }
+        .our{
+            font-family: "IBM Plex Sans",Sans-serif;
+            font-weight: 700;
+            font-size: 17px;
+        }
+        .footer{
+            padding-top: 84px;
+            padding-bottom: 80px;
+        }
+        .icons{
+            display: flex;
+            justify-content: flex-end;
+            }
+       .Copyright{
+           display: flex;
+           align-items: center;
+       }
+    .Building-future
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    .our-c {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .our-cores {
+        padding-left: 108px;
+        padding-right: 10px;
+    }
+    
+    .beliefs {
+        margin-right: 143px;
+        border: solid#cb202d 3px;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    
+    .beliefs-h {
+        font-weight: 600;
+    }
+    
+    .founder {
+        border-radius: 100%;
+    }
+    
+    .co-fouder {
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #213150;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .flipkar-founder {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 18px;
+    }
+    .the-team{
+        font-size: 40px;
+    }
+    .ourteam{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 18px;
+    }
+    .our-spaces{
+        padding: 120px 0px 120px 0px ;
+        font-size: 40px;
+    }
+    .Bengaluru{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sector{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 18px;
+        padding-right: 120px;
+    }
+    .product{
+        list-style: none;
+        padding: 0px;
+    }
+    .list{
+        padding-right: 132px;
+    }
+    .lists{
+        margin-right: 282px;
+    }
+    .our{
+        font-family: "IBM Plex Sans",Sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .maps{
+        padding-bottom: 120px;
+    }
+    .trusted{
+        margin-top: 120px;
+    }
+    .startups{
+        display: flex;
+        align-items: center;
+        
+    }
+    .employees{
+        color: #6c6d6f;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .footer{
+        padding-top: 84px;
+    }
+    .icons{
+        display: flex;
+        justify-content: flex-end;
+        }
+   .Copyright{
+       display: flex;
+       align-items: center;
+   }
+   .product li a{
+       color: #6c6d6f;
+       transition: all 0.15s linear;
+   }
+   .product li a:hover{ 
+       color: #cb202d;
+   }
+   a:hover{
+       color: cb202d;
+       text-decoration: none;
+   }
+   .youtub{
+       background-image: url(images/youtube.svg);
+    transition: all 0.15s linear;
+    width: 32px;
+height: 32px;
+border-radius: 100%;
+}
+.youtub:hover{
+    background-image: url(images/youtube_hover.svg);
+}
+.twitter{
+    background-image: url(images/twitter.svg);
+    transition: all 0.15s linear;
+    width: 32px;
+height: 32px;
+margin-left: 30px;
+margin-right: 30px;
+display: flex;
+align-items: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.twitter:hover{
+    background-image: url(images/twitter_hover.svg);
+}
+.link{
+    background-image: url(images/linkedin.svg);
+    transition: all 0.15s linear;
+    width: 32px;
+height: 32px;
+}
+.link:hover{
+    background-image: url(images/linkedin_hover.svg);
+}
