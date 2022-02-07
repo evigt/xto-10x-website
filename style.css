@@ -1,6 +1,4 @@
-.navbar > ul{
-  background-color: antiquewhite;
-}
+
 .navbar ul {
    list-style: none;
    position: relative;
@@ -14,9 +12,13 @@
   font-size: 16px;
   text-decoration: none;
   color: #202124;
-  font-weight: bold;
-  padding: 0px 15px;
+  font-weight: 600;
+  padding: 0px 16px 0px 16px ;
   display: block;
+}
+.down{
+  display: flex;
+  align-items: center;
 }
 .navbar ul  li{
   float: left;
@@ -24,7 +26,13 @@
   position: relative;
   margin: 0;
 }
+.downs{
+  padding-left: 20px;
+}
 
+.goal{
+  padding: 16px;
+}
 .navbar ul ul  {
   position: absolute;
   display: none;
@@ -38,3 +46,17 @@
     border-radius: 20px;
     border: solid black 1px ;
 }
+  /* .logo{
+    display: flex;
+      justify-content: space-around;
+      align-items: center;
+  } */
+  .navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding-left: 175px;
+padding-right: 175px;
+  }
