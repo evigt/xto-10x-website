@@ -69,6 +69,7 @@ padding: 0%;
   left: 0;
 }
 .navbar ul li:hover > ul{
+  
   line-height: 1;
   /* line-height: initial; */
   /* width: max-content; */
@@ -143,12 +144,13 @@ padding-right: 175px;
     /* letter-spacing: .9px */
   }
   .topimg{
+    margin-left: 60px;
     display: flex;
     align-items: center;
   }
   .top{
-    padding-left: 410px;
-    padding-right: 410px;
+    padding-left: 190px;
+    padding-right: 190px;
     display: flex;
   }
   .top-p{
@@ -280,8 +282,8 @@ text-decoration: none;
   margin-bottom: 56px;
 }
  .products{
-  padding-left: 410px;
-  padding-right: 410px;
+  padding-left: 190px;
+  padding-right: 190px;
  }
  .product-box{
    margin-left:10px ;
@@ -316,10 +318,18 @@ text-align: center;
 
 }
 .container{
-  padding-left: 410px;
-  padding-right: 410px;
+  padding-left:190px;
+  padding-right: 190px;
 }
 .request-demo{
+  padding-bottom: 80px;
+  padding-top: 110px;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:190px;
+  padding-right: 190px;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #1F2E64;
@@ -336,5 +346,173 @@ text-align: center;
   line-height: 56px;
 }
 .worked{
-  worked
+  color: #EAEBF0;
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 28px;
+}
+
+   .req-demo
+    {
+      background-color: #FFF;
+      color: #6C6D6F;
+      border-style: solid;
+      border-width: 1.5px 1.5px 1.5px 1.5px;
+      border-color: #EAEBF0;
+      border-radius: 6px 6px 6px 6px;
+      padding: 12px 24px 12px 24px;
+      font-family: "IBM Plex Sans",Sans-serif;
+      font-size: 20px;
+      line-height: 1.6em;
+      letter-spacing: .4px;
+      /* height: 56px; */
+        width: 360px;
+    }
+   
+    .request-bnt{
+      background-color: #2F53D7!important;
+      color: #FFFFFF!important;
+      border-radius: 6px 6px 6px 6px;
+      padding: 12px 0 12px 0;
+      font-family: "IBM Plex Sans",Sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: none;
+      line-height: 1.6em;
+    margin-left: 8px;
+    width: 40%;
+    border: solid 0px;
+      letter-spacing: .4px;
+    }
+    .rew-demo-card{
+      display: flex;
+    }
+    .custom .checkbox{
+      position: relative;
+      top: 2px;
+      display: inline-block;
+      /* margin: 0;
+      width: 1.5rem;
+      /* min-width: 1.5rem; */
+      width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  
+  }
+    .agree-email-p{
+      color: #C8C9D1!important;
+      font-family: "IBM Plex Sans",Sans-serif!important;
+      font-size: 18px!important;
+      line-height: 32px!important;
+    }
+    .privacy-policy-a{
+      color: #C8C9D1!important;
+      font-family: "IBM Plex Sans",Sans-serif!important;
+      font-size: 18px!important;
+      line-height: 32px!important;
+    }
+   .container ul li{
+    margin-top: 20px; 
+     text-decoration: none;
+   }
+   .container ul .a-element:hover{
+color: #CB202D;
+   }
+
+   .product{
+     margin-top: 28px;
+     padding-left: 0%;
+     list-style: none;
+   }
+   .li-element{
+     text-decoration: none;
+   }
+   .a-element{
+    font-family: "IBM Plex Sans",Sans-serif;
+    font-size: 14px;
+    color: #6C6D6F;
+    font-weight: 600;
+     text-decoration: none;
+   }
+   .widget-title{
+    color: #202124;
+    font-family: "IBM Plex Sans",Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+   }
+   .footer-detail {
+     padding-top: 84px;
+     padding-bottom: 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.f-line{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.OUR-SERVICES{
+  display: flex;
+  align-items: flex-start;
+}
+.services-items{
+  margin-left: 20px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Copyright-p{
+  color: #72737D;
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+.youtube{
+  background-image: url(images/youtube.svg);
+  width: 32px;
+  height: 32px;
+margin-right: 20px;
+
+}
+.youtube:hover{
+background-image:url(images/youtube_hover.svg) ;
+width: 32px;
+}
+.twitter{
+  background-image: url(images/twitter.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+
+}
+.twitter:hover{
+  /* background-color: #c8c9d100; */
+  background-image:url(images/twitter_hover.svg) ;
+  
+}
+.linkedin{
+  background-image:url(images/linkedin.svg) ;
+  width: 32px;
+  height: 32px;
+}
+.linkedin:hover{
+background-image: url(images/linkedin_hover.svg);
+padding-left: 20px;
+}
+/* .twitter{
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+.social{
+  display: flex;
 }
