@@ -147,8 +147,8 @@ padding-right: 175px;
     align-items: center;
   }
   .top{
-    padding-left: 175px;
-    padding-right: 175px;
+    padding-left: 410px;
+    padding-right: 410px;
     display: flex;
   }
   .top-p{
@@ -280,8 +280,8 @@ text-decoration: none;
   margin-bottom: 56px;
 }
  .products{
-  padding-left: 175px;
-  padding-right: 175px;
+  padding-left: 410px;
+  padding-right: 410px;
  }
  .product-box{
    margin-left:10px ;
@@ -314,4 +314,27 @@ text-align: center;
     line-height: 32px;
     text-align: center;
 
+}
+.container{
+  padding-left: 410px;
+  padding-right: 410px;
+}
+.request-demo{
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #1F2E64;
+  background-size: 190px auto;
+  background-image: url(images/Email-section-pattern-right.svg);
+}
+.scaling-success{
+  max-width: 400px;
+  padding-right: 20px;
+  color: #FFF;
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.worked{
+  worked
 }
