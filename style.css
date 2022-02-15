@@ -10,6 +10,16 @@
 .startups{
   margin-right: 25px;
 }
+.b-design{
+  margin: 154px 0 0 0;
+    padding: 19px 19px 19px 19px;
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E9E8EF;
+    border-radius: 16px 16px 16px 16px;
+}
+}
 .startupsimg{
   margin-top: 20px;
   margin-bottom : 20px;
