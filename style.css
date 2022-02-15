@@ -7,7 +7,12 @@
   padding: 0;
   float: left;
 }
+.startups{
+  margin-right: 25px;
+}
 .maintop{
+  margin-top: 120px;
+  height: 600px;
   display: flex;
   justify-content: space-between;
   
@@ -105,8 +110,9 @@ margin-top: 20px;
    margin-bottom: 20px;
  } */
  .navbar{
-   padding-top: 20px;
-   padding-bottom: 20px;
+   margin: 0px;
+   /* padding-top: 20px; */
+   /* padding-bottom: 20px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -124,18 +130,22 @@ padding-right: 219px;
    letter-spacing: .2px;
  }
  .btn{
-   margin-left: 8px;
-   background-color: #cb202d!important;
-   color: #fff!important;
-   border-radius: 6px;
-   padding: 11px 54px;
-   border: solid 0px;
-   font-family: "IBM Plex Sans",Sans-serif;
-   font-size: 16px;
-   font-weight: 600;
-   text-transform: none;
-   line-height: 2em;
-   letter-spacing: .32px;
+   
+ }
+ .btn-tell{
+  margin-left: 8px;
+  background-color: #cb202d!important;
+  color: #fff!important;
+  border-radius: 6px;
+  padding: 11px 54px;
+  border: solid 0px;
+  padding: 10px 20px;
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: 2em;
+  letter-spacing: .32p
  }
  .btn:hover{
    background: #ee4b4b;
@@ -155,8 +165,8 @@ padding-right: 219px;
  }
  .top{
    padding-top: 130px;
-   padding-left: 219px;
-   padding-right: 219px;
+   /* padding-left: 219px;
+   padding-right: 219px; */
    display: flex;
  }
  .top-p{
@@ -200,7 +210,33 @@ padding-right: 219px;
    flex-direction: row;
    justify-content: space-evenly;
  }
-  
+  .product-list  [id^="tab"]:checked + label{
+    font-family: "IBM Plex Sans",Sans-serif;
+    font-size: 22px;
+    background-color: #EBF6FF;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0;
+    fill: #6C6D6F;
+    color: #6C6D6F;
+    background-color: #FFF;
+    border-radius: 6px 6px 6px 6px;
+    padding: 12px 24px 12px 24px;
+    background-color: #EBF6FF;
+  }
+.product-list label{
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0;
+  fill: #6C6D6F;
+  color: #6C6D6F;
+}
+  .product-list [id^="tab"]:checked ~ .tabcontant{
+    display: block;
+  }
+
  .active{
      background-color: #ebf6ff;
    color: #202124;
@@ -283,14 +319,17 @@ text-decoration: none;
   display: flex;
   align-items: center;
 }
+.tab-1{
+  position: absolute;
+}
 .product-list {
  text-align: center;
  margin-bottom: 56px;
 }
-.products{
+/* .products{
  padding-left: 219px;
  padding-right: 219px;
-}
+} */
 .product-box{
   margin-left:10px ;
   margin-right: 10px;
@@ -414,7 +453,7 @@ text-align: center;
      text-transform: none;
      line-height: 1.6em;
    margin-left: 8px;
-   width: 25%;
+   width: 56%;
    border: solid 0px;
      letter-spacing: .4px;
    }
@@ -877,13 +916,29 @@ padding: 14px 43px 14px 43px;
   align-items: center ;
   justify-content: center;
 }
+.container-bg{
+  background-image: url(images/10xgoals-bnr-bg-v1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 55% auto;
+  opacity: 1;
+  transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+}
+.tex-x-people-bg{
+  background-image: url(images/10xpeople-bnr-bg-v11.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 55% auto;
+  opacity: 1;
+  transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+}
+
 .academy-goals{
 justify-content: space-between;
 /* margin-bottom: 138px; */
 padding-top: 70px;
 padding-bottom: 70px;
 /* margin-top: 108px;  */
-background-image: url(images/10xgoals-bnr-bg-v1.png);
 display: flex;
 align-items: center;
 background-position: bottom right;
@@ -925,7 +980,7 @@ a,a:hover{
 }
 nav {
  margin: 50px 0;
- background-color: #E64A19;
+ /* background-color: #E64A19; */
 }
 
 nav ul {
@@ -937,7 +992,7 @@ nav ul {
 
 nav ul li {
  display:inline-block;
- background-color: #E64A19;
+ /* background-color: #E64A19; */
  }
 
 nav a {
@@ -980,13 +1035,26 @@ nav ul ul ul li {
  left:170px;
 }
 
-
-/* Change this in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
-#banner{
- padding: 120px 0;
+.product-list{
+  position: relative;
 }
+.product-list input[type="radio"]{
+  position: absolute ;
+  top:-99999px;
+  left: -99999px;
+}
+.tell-me-inpute{
+  display: flex;
+  align-items: center;
+  flex-direction:row ;
+}
+.product-list .tabcontant {
+  /* background-color: rgb(133, 18, 18);   */
+  /* position: absolute; */
+  display: none;
+  /* background-color: #182272; */
+} 
+
 .banner-img{
  float: left;
 }
@@ -1077,6 +1145,20 @@ li > a:only-child:after { content: ''; }
 .vision-team:nth-child(3){
  margin-bottom: 0px;
 }
+
+.Products{
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0;
+  fill: #6C6D6F;
+  color: #6C6D6F;
+  background-color: #FFF;
+  border-radius: 6px 6px 6px 6px;
+  padding: 12px 24px 12px 24px;
+}
+
 .vision-team .title{
  color: #213150;
  font-size: 28px;
