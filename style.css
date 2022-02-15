@@ -336,6 +336,57 @@ text-decoration: none;
   display: flex;
   align-items: center;
 }
+.good-company{
+  color: #202124;
+font-family: "IBM Plex Sans",Sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 1.5em;
+margin-top: 72px;
+/* margin: 0px; */
+margin-bottom: 8px;
+letter-spacing: 0;
+text-align: center;
+}
+.companyes{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 52px;
+  margin-bottom: 102px;
+}
+.ten-x-people-screenshot{
+  width: 650px;
+  background-image: url(images/blue-dots-bg.png) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 35px 44px 35px;
+}.container ul{
+  display: none;
+}
+.helps-you-items{
+  display: flex;
+  align-items: center;
+}
+.counting{
+  font-family: "IBM Plex Sans",Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0;
+}
+.trusted-employes-h{
+  font-family: "IBM Plex Sans",Sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.3em;
+letter-spacing: .4px;
+color: #6C6D6F;
+margin: 0 0 0 0;
+/* margin: 0px; */
+text-align: center;
+padding: 0 0 0 0;
+}
 .tab-1{
   position: absolute;
 }
