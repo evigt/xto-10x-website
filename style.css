@@ -1372,6 +1372,9 @@ border-radius: 16px 16px 16px 16px;
   width: 100%;
   height: auto;
 }
+.owl-nav{
+  display: none !important;
+}
 
 .clientimg{
   width: 28px !important;
