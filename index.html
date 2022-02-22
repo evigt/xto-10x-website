@@ -15,11 +15,21 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="owl.carousel.min.css">
+  <link rel="stylesheet" href="owl.theme.default.min.css">
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
+
+
 
 <body>
   <nav>
-    <div class="wrapper">
+    <div class="wrapper" id="nav-wrapper">
       <div class="logo">
         <a href="#"><img src="images/logo.png" alt="" width="122px"></a>
       </div>
@@ -28,7 +38,8 @@
       <ul class="nav-links">
         <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
         <li class="add-hover">
-          <a href="#" class="desktop-item">Products <img src="images/down.png" alt="" style="width: 33px; padding-left: 10px;" ></a>
+          <a href="#" class="desktop-item">Products <img src="images/down.png" alt=""
+              style="width: 33px; padding-left: 10px;"></a>
           <input type="checkbox" id="showDrop" />
           <label for="showDrop" class="mobile-item">Dropdown Menu</label>
           <ul class="drop-menu">
@@ -72,7 +83,8 @@
     </ul>
     </li>
     <li class="add-hover">
-      <a href="#" class="desktop-item">Scaling Services <img src="images/down.png" alt="" style="width: 33px; padding-left: 10px;" ></a>
+      <a href="#" class="desktop-item">Scaling Services <img src="images/down.png" alt=""
+          style="width: 33px; padding-left: 10px;"></a>
       <input type="checkbox" id="showMega" />
       <label for="showMega" class="mobile-item">Mega Menu</label>
       <div class="mega-box">
@@ -187,8 +199,8 @@
         </div>
       </div>
     </li>
-    <li class="add-hover"><a href="#">Founders' Academy</a></li>
-    <li class="add-hover"><a href="#">About Us</a></li>
+    <li class="add-hover"><a href="Founder’s Academy.html">Founders' Academy</a></li>
+    <li class="add-hover"><a href="aboutus.html">About Us</a></li>
     <li class="add-hover"><a href="#">Login</a></li>
     </ul>
     <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
@@ -224,64 +236,66 @@
   <div class="products">
 
     <h2 class="section-heading">What we do</h2>
-    
-<div class="product--iteam">
-  <button class="Productsbtn">Products</button>
-  <button class="Productsbtn">Services</button>
-  <button class="Productsbtn">Founders' Academy</button>
-  
-<div class="tab">
-  
-  <div class="tabcontant">
-    <div class="main-pro-box">
-      <div class="product-box">
-        <h3 class="product-goal">10xGoals</h3>
-        <span class="implement-h">Implement OKRs successfully</span>
-        <p class="product-p">Drive your goals from strategy to execution. Align individuals, collaborate
-          cross-functionally, and ensure transparency amongst teams on org-wide goals.</p>
-        <div class="product-btn">
-          <a class="learn-more" href="">Learn More</a>
-        </div>
-        <div class="product-img">
-          <img src="images/product.png" alt="" width="253px">
-        </div>
-      </div>
-      <div class="product-box">
-        <h3 class="product-goal">10xGoals</h3>
-        <span class="implement-h">Implement OKRs successfully</span>
-        <p class="product-p">Drive your goals from strategy to execution. Align individuals, collaborate
-          cross-functionally, and ensure transparency amongst teams on org-wide goals.</p>
-        <div class="product-btn">
-          <a class="learn-more" href="">Learn More</a>
-        </div>
-        <div class="product-img">
-          <img src="images/product.png" alt="" width="253px">
-        </div>
-      </div>
-      <div class="product-box">
-        <h3 class="product-goal">10xGoals</h3>
-        <span class="implement-h">Implement OKRs successfully</span>
-        <p class="product-p">Drive your goals from strategy to execution. Align individuals, collaborate
-          cross-functionally, and ensure transparency amongst teams on org-wide goals.</p>
-        <div class="product-btn">
-          <a class="learn-more" href="">Learn More</a>
-        </div>
-        <div class="product-img">
-          <img src="images/product.png" alt="" width="253px">
-        </div>
-      </div>
+    <div class="tab-btn">
+      <button class="Productsbtn">Products</button>
+      <button class="Productsbtn">Services</button>
+      <button class="Productsbtn">Founders' Academy</button>
     </div>
-  </div> 
-</div>
-
-</div>
+    <div class="product--iteam">
 
 
+      <div class="tab">
+
+        <div class="tabcontant">
+          <div class="main-pro-box">
+            <div class="product-box">
+              <h3 class="product-goal">10xGoals</h3>
+              <span class="implement-h">Implement OKRs successfully</span>
+              <p class="product-p">Drive your goals from strategy to execution. Align individuals, collaborate
+                cross-functionally, and ensure transparency amongst teams on org-wide goals.</p>
+              <div class="product-btn">
+                <a class="learn-more" href="">Learn More</a>
+              </div>
+              <div class="product-img">
+                <img src="images/product.png" alt="" width="253px">
+              </div>
+            </div>
+            <div class="product-box">
+              <h3 class="product-goal">10xGoals</h3>
+              <span class="implement-h">Implement OKRs successfully</span>
+              <p class="product-p">Drive your goals from strategy to execution. Align individuals, collaborate
+                cross-functionally, and ensure transparency amongst teams on org-wide goals.</p>
+              <div class="product-btn">
+                <a class="learn-more" href="">Learn More</a>
+              </div>
+              <div class="product-img">
+                <img src="images/product.png" alt="" width="253px">
+              </div>
+            </div>
+            <div class="product-box">
+              <h3 class="product-goal">10xGoals</h3>
+              <span class="implement-h">Implement OKRs successfully</span>
+              <p class="product-p">Drive your goals from strategy to execution. Align individuals, collaborate
+                cross-functionally, and ensure transparency amongst teams on org-wide goals.</p>
+              <div class="product-btn">
+                <a class="learn-more" href="">Learn More</a>
+              </div>
+              <div class="product-img">
+                <img src="images/product.png" alt="" width="253px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
 
 
 
-        <!-- <div class="tabcontant">
+
+
+    <!-- <div class="tabcontant">
           <div class="main-pro-box">
             <div class="product-box">
               <h3 class="product-goal">10xGoals</h3>
@@ -331,11 +345,7 @@
 
 
 
-
-        <!-- <input type="radio" id="tab-2" name="tab">
-        <label for="tab-2">Services</label>
-
-        <div class="tabcontant">
+    <!-- <div class="tabcontant">
           <div>
             <h2>We cover <span class="core-pillars">10 core pillars</span> that are key to scaling success</h2>
           </div>
@@ -344,174 +354,428 @@
       <li>
     
 
-  </div>
-  <div class="home-container">
-    <div class="">
-      <h2 class="startups-h">Trusted by startups and enterprises alike
-      </h2>
-      <p class="employes-h">20,000+ employees across 150+ organizations and counting...
-      </p>
-    </div>
-  </div>
-  <div class="startupsimg">
-    <img class="startups" src="images/Homepage_logo25-300x300.png" alt="" width="192px">
-    <img class="startups" src="images/licious.png" alt="" width="192px">
-    <img class="startups" src="images/homelane.png" alt="" width="192px">
-    <img class="startups" src="images/hopscotch.png" alt="" width="192px">
-    <img class="startups" src="images/groww.png" alt="" width="192px">
-    <!-- <img class="startups" src="images/lenskart.com" alt="" width="192px" > -->
-    <!-- <img class="startups" src="images/vedantu.png" alt="" width="192px" > -->
-    <!-- <img class="startups" src="images/rebel-foods.png" alt="" width="192px" > -->
-    <!-- <img class="startups" src="images/moengage.png" alt="" width="192px" > -->
-  </div>
-  <!-- <div class="custom">
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
-    <div class="slider">
-      <img src="images/youtube_hover.svg" alt="">
-    </div>
   </div> -->
-  <div class="request-demo">
-    <h2 class="scaling-success">
-      Let’s talk about what <br> we can do for your <br> scaling success</h2>
-    <div>
-      <p class="worked">We have worked with 150+ companies in the past year.
-      </p>
-      <div class="rew-demo-card">
-        <input class="req-demo" type="text" placeholder="Enter your work email... ">
-        <button class="request-bnt">Request Demo</button>
+    <div class="Trusted-slider">
+      <div class="home-container">
+        <div class="">
+          <h2 class="startups-h">Trusted by startups and enterprises alike
+          </h2>
+          <p class="employes-h">20,000+ employees across 150+ organizations and counting...
+          </p>
+        </div>
       </div>
-      <div>
-        <p class="agree-email-p"> <label for="custom">
-            <input class="checkbox" type="checkbox">
-          </label>I agree to receive informational emails on xto10x's offerings in <br> accordance with
-          its
-          <a class="privacy-policy-a" href="https://www.xto10x.com/security/privacy-policy/" target="_blank">privacy
-            policy</a>
-        </p>
+
+
+      <div style="padding:0 0 118px 0">
+        <div class="owl-container">
+          <div id="owl-carousel" class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/Homepage_logo25-300x300.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/licious.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/homelane.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/hopscotch.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/groww.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/rezerpay.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/rupay.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/practo.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/carsome.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/STV.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/sterlitePower.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/meoengage.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/meesho.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Upgrad.png" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="owl-container">
+          <div id="owl-carousel-two" class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/Homepage_logo25-300x300.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/meoengage.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/shadowfax.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/smartworks.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/sterlitePower.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/tastybite.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/themomsco..png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Upgrad.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/unzo.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/capillary.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/sterlitePower.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/meoengage.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/meesho.png" alt="">
+            </div>
+            <div class="item">
+              <img src="images/Upgrad.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="customer-stories">
+      <h4 class="Our-customer-h">Our customer stories</h4>
+
+    </div>
+    <div class="customers-slider">
+      <h4 class="Incredible-h">Invaluable insights</h4>
+      <p class="customers-p">“I am glad we chose xto10x. Their insights have been invaluable in steering the senior leadership team at Nium in not only setting the right objectives but also in sharpening the specifics of the ‘how’s’ from a delivery perspective.”</p>
+      <div class="customer-detail">
+        <img class="iteamimg" src="images/testi-author-10.png" alt="" width="56px">
+        <div class="customer-detail-all">
+          <h4 class="customer-name">Prajit Nanu </h4>
+          <p class="bussines">CEO & Co-Founder, Nium</p>
+        </div>
+        <img src="images/client-logo-nium-3.png" alt="">
       </div>
     </div>
-  </div>
-  <div class="home-container ">
-    <div class="footer-detail">
-      <div class="">
-        <div class="main-PRODUCTS">
-          <h3 class="widget-title ">OUR PRODUCTS</h3>
-          <!-- <hr class="f-line"> -->
+    <div class="customers-slider">
+      <h4 class="Incredible-h">Invaluable insights</h4>
+      <p class="customers-p">“I am glad we chose xto10x. Their insights have been invaluable in steering the senior leadership team at Nium in not only setting the right objectives but also in sharpening the specifics of the ‘how’s’ from a delivery perspective.”</p>
+      <div class="customer-detail">
+        <img class="iteamimg" src="images/testi-author-10.png" alt="" width="56px">
+        <div class="customer-detail-all">
+          <h4 class="customer-name">Prajit Nanu </h4>
+          <p class="bussines">CEO & Co-Founder, Nium</p>
         </div>
-        <ul class="product">
-          <li class="li-element"><a class="a-element  " href="#">10xGaols</a></li>
-          <li class="li-element"><a class="a-element" href="#">10xPeople</a></li>
-          <li class="li-element">
-            <a class="a-element" href="#">10xPerformance</a>
-          </li>
-        </ul>
+        <img src="images/client-logo-nium-3.png" alt="">
       </div>
-      <div class="main-services">
-        <div class="lists">
-          <h3 class="widget-title">OUR SERVICES</h3>
-          <div>
-            <!-- <hr class="SERVICES-L"> -->
-
+    </div>
+    <div class="container">
+      <div class="owl-carousel">
+        <div class="item black">
+          <div class="customers-slider">
+            <h4 class="Incredible-h">Exemplary employee engagement framework </h4>
+            <p class="customers-p">“xto10x has helped us bring science to employee engagement. 10xPeople is a powerful tool for us to listen to different employee segments and take insights based action.</p>
+              <div class="customer-detail">
+                
+                <img class="iteamimg" src="images/testi-author-9.png" alt="" width="56px">
+                <div class="customer-detail-all">
+                  <div>
+                    <h4 class="customer-name">Strategy Team </h4>
+                    <p class="bussines">Razorpay</p>
+                  </div>
+                </div>
+                <img class="clientrezerimg" src="images/client-logo-razorpay-3.png" alt="" >
+              </div>
+            </div>
           </div>
+        <div class="item black">
+          <div class="customers-slider">
+            <h4 class="Incredible-h">Invaluable insights</h4>
+            <p class="customers-p">“I am glad we chose xto10x. Their insights have been invaluable in steering the senior leadership team at Nium in not only setting the right objectives but also in sharpening the specifics of the ‘how’s’ from a delivery perspective.”</p>
+              <div class="customer-detail">
+                
+                <img class="iteamimg" src="images/testi-author-10.png" alt="" width="56px">
+                <div class="customer-detail-all">
+                  <div>
+                    <h4 class="customer-name">Prajit Nanu </h4>
+                    <p class="bussines">CEO & Co-Founder, Nium</p>
+                  </div>
+                </div>
+                <img class="clientimg" src="images/client-logo-nium-3.png" alt="" width="30px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="home-container ">
+      <div class="footer-detail">
+        <div class="">
+          <div class="main-PRODUCTS">
+            <h3 class="widget-title ">OUR PRODUCTS</h3>
+            <!-- <hr class="f-line"> -->
+          </div>
+          <ul class="product">
+            <li class="li-element"><a class="a-element  " href="#">10xGaols</a></li>
+            <li class="li-element"><a class="a-element" href="#">10xPeople</a></li>
+            <li class="li-element">
+              <a class="a-element" href="#">10xPerformance</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-services">
+          <div class="lists">
+            <h3 class="widget-title">OUR SERVICES</h3>
+            <div>
+              <!-- <hr class="SERVICES-L"> -->
+
+            </div>
+          </div>
+          <div>
+          </div>
+          <div class="OUR-SERVICES">
+            <div>
+              <ul class="product">
+                <li class="li-element"><a class="a-element" href="#">Business Design</a></li>
+                <li class="li-element"><a class="a-element" href="#">Branding & Marketing</a></li>
+                <li class="li-element"><a class="a-element" href="#">Customer Experience</a></li>
+                <li><a class="a-element" href="Founder’s Academy.html">Founder’s Growth</a></li>
+              </ul>
+            </div>
+            <div class="services-items">
+              <ul class="product">
+                <li class="li-element"><a class="a-element" href="#">Objectives & Key Results</a></li>
+                <li class="li-element"><a class="a-element" href="Operations Excellence.html">Operation Excellence</a>
+                </li>
+                <li class="li-element"><a class="a-element" href="#">Org & Leadership</a></li>
+                <li class="li-element"><a class="a-element" href="#">People & Culture</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="company">
+          <div class="companyAbout">
+            <h3 class="widget-title ">COMPANY</h3>
+            <!-- <hr> -->
+          </div>
+          <ul class="product">
+            <li><a class="a-element" href="#">About</a></li>
+            <li class="li-element"><a class="a-element" href="#">Blog</a></li>
+            <li class="li-element"><a class="a-element" href="#">Careers</a></li>
+            <li>
+              <a class="a-element" href="#"> Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="legal">
+          <div class="legals">
+            <h3 class="widget-title our">LEGAL</h3>
+            <!-- <hr class="LEGAL-L"> -->
+          </div>
+          <ul class="product">
+            <li><a class="a-element" href="">Privacy Policy</a></li>
+            <li class="li-element"><a class="a-element" href="#">Cookies Policy</a></li>
+            <li class="li-element"><a class="a-element" href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="home-container">
+      <div class="footer">
+        <div>
+          <img src="images/logo.png" alt="" width="102px">
         </div>
         <div>
+          <p class="Copyright-p">Copyright © 2022 - xto10x Technologies</p>
         </div>
-        <div class="OUR-SERVICES">
-          <div>
-            <ul class="product">
-              <li class="li-element"><a class="a-element" href="#">Business Design</a></li>
-              <li class="li-element"><a class="a-element" href="#">Branding & Marketing</a></li>
-              <li class="li-element"><a class="a-element" href="#">Customer Experience</a></li>
-              <li><a class="a-element" href="Founder’s Academy.html">Founder’s Growth</a></li>
-            </ul>
+        <div class="social">
+          <div class="youtube"><a href=https://www.youtube.com/channel/UCLL05gUyG0jsnP2TCoS7JZw></a>
           </div>
-          <div class="services-items">
-            <ul class="product">
-              <li class="li-element"><a class="a-element" href="#">Objectives & Key Results</a></li>
-              <li class="li-element"><a class="a-element" href="Operations Excellence.html">Operation Excellence</a>
-              </li>
-              <li class="li-element"><a class="a-element" href="#">Org & Leadership</a></li>
-              <li class="li-element"><a class="a-element" href="#">People & Culture</a></li>
-            </ul>
+          <div class="twitter">
+            <a href="https://twitter.com/xto10x"></a>
+          </div>
+          <div class="linkedin">
+            <a
+              href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFP0-OYvY8s5wAAAX7fzNCo8lstTSwBSSRiEvI2-hg6XacNbA7ep2K5GoakcWAr4DmTdqYZ8tPQM1-F3JMoMmRpFI5K3ebbHJXRzd-mApZYfw2TiL90uYIy71fi0E4ZmLoeM_g=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fxto10x-tech%2F"></a>
           </div>
         </div>
-      </div>
-      <div class="company">
-        <div class="companyAbout">
-          <h3 class="widget-title ">COMPANY</h3>
-          <!-- <hr> -->
-        </div>
-        <ul class="product">
-          <li><a class="a-element" href="#">About</a></li>
-          <li class="li-element"><a class="a-element" href="#">Blog</a></li>
-          <li class="li-element"><a class="a-element" href="#">Careers</a></li>
-          <li>
-            <a class="a-element" href="#"> Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="legal">
-        <div class="legals">
-          <h3 class="widget-title our">LEGAL</h3>
-          <!-- <hr class="LEGAL-L"> -->
-        </div>
-        <ul class="product">
-          <li><a class="a-element" href="">Privacy Policy</a></li>
-          <li class="li-element"><a class="a-element" href="#">Cookies Policy</a></li>
-          <li class="li-element"><a class="a-element" href="#">Terms of Use</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="home-container">
-    <div class="footer">
-      <div>
-        <img src="images/logo.png" alt="" width="102px">
-      </div>
-      <div>
-        <p class="Copyright-p">Copyright © 2022 - xto10x Technologies</p>
-      </div>
-      <div class="social">
-        <div class="youtube"><a href=https://www.youtube.com/channel/UCLL05gUyG0jsnP2TCoS7JZw></a>
-        </div>
-        <div class="twitter">
-          <a href="https://twitter.com/xto10x"></a>
-        </div>
-        <div class="linkedin">
-          <a
-            href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFP0-OYvY8s5wAAAX7fzNCo8lstTSwBSSRiEvI2-hg6XacNbA7ep2K5GoakcWAr4DmTdqYZ8tPQM1-F3JMoMmRpFI5K3ebbHJXRzd-mApZYfw2TiL90uYIy71fi0E4ZmLoeM_g=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fxto10x-tech%2F"></a>
-        </div>
-      </div>
 
+      </div>
     </div>
-  </div>
 </body>
-<script src="sp"></script>
+<!-- javascript -->
+<script src="jquery.min.js"></script>
+<script src="owl.carousel.js"></script>
+<script>
+  // var owl = $('.owl-carousel');
+  // owl.owlCarousel({
+  //   items: 7,
+  //   loop: true,
+  //   margin: 10,
+  //   rtl:true,
+  //   autoplay: true,
+  //   autoplayTimeout: 4000,
+  //   nav:false,
+  //   dots:false,
+  //   // autoplayHoverPause: true,
+
+  // });
+
+  $('#owl-carousel').owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    // autoplayHoverPause:true,
+    items: 7,
+    responsive: {
+      0: {
+        items: 2
+      },
+
+      600: {
+        items: 3
+      },
+
+      1024: {
+        items: 7
+      },
+
+      1366: {
+        items: 7
+      }
+    }
+  })
+
+
+
+  $('#owl-carousel-two').owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    rtl: true,
+    autoplayTimeout: 2000,
+    // autoplayHoverPause:true,
+    items: 7,
+    responsive: {
+      0: {
+        items: 2
+      },
+
+      600: {
+        items: 3
+      },
+
+      1024: {
+        items: 7
+      },
+
+      1366: {
+        items: 7
+      }
+    }
+  })
+
+</script>
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    stagePadding: 200,
+    loop: true,
+    margin: 10,
+    nav: false,
+    items: 1,
+    lazyLoad: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+        stagePadding: 60
+      },
+      600: {
+        items: 1,
+        stagePadding: 100
+      },
+      1000: {
+        items: 1,
+        stagePadding: 200
+      },
+      1200: {
+        items: 1,
+        stagePadding: 200
+      },
+      1400: {
+        items: 2,
+        stagePadding: 300
+      },
+      1600: {
+        items: 2,
+        stagePadding: 350
+      },
+      1800: {
+        items: 2,
+        stagePadding: 400
+      }
+    }
+  })
+</script>
+<script>
+  const navbar = document.getElementById('nav-wrapper')
+
+  // OnScroll event handler
+  const onScroll = () => {
+
+    // Get scroll value
+    const scroll = document.documentElement.scrollTop
+
+    // If scroll value is more than 0 - add class
+    if (scroll > 0) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky")
+    }
+  }
+  // Use the function
+  window.addEventListener('scroll', onScroll)
+
+</script>
+
 
 </html>
