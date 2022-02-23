@@ -1,15 +1,9 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+
 }
 
 nav{
@@ -223,7 +217,26 @@ color: #f2f2f2;
   cursor: pointer;
   display: none;
 }
-
+.Scaling-impact{
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 200px auto;
+  opacity: 1;
+  transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+  background-color: #182272;
+  background-image: url(images/10xg-pattern-rightnow.svg);
+}
+.scaling-impact-h{
+  color: #202124;
+  font-family: "IBM Plex Sans",Sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 88px;
+  line-height: 40px;
+  letter-spacing: 0;
+}
 .wrapper .btn.cancel-btn{
  position: absolute;
  right: 30px;
@@ -267,7 +280,8 @@ color: #f2f2f2;
       box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
       transition: all 0.3s ease;
   }
-
+  
+  
   #menu-btn:checked ~ .nav-links{
       left: 0%;
   }
@@ -872,9 +886,15 @@ padding-right: 219px;
    letter-spacing: .2px;
  }
  
-
-
-
+.clientmeeshiimg{
+  width: 86px !important;
+}
+.client-messho{
+  margin-top: -35px;
+}
+.btn-tell:hover{
+  background-color: #EE4B4B!important;
+}
  
  .btn-tell{
   margin-left: 8px;
@@ -1291,7 +1311,10 @@ background-color: #fff;
   padding: 0;
 }
 
-
+.owl-item > div{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
 .owl-item > div {
   cursor: pointer;
   margin: 6% 8%;
@@ -1310,10 +1333,46 @@ border-radius: 16px 16px 16px 16px;
     border-width: 2px 2px 2px 2px;
     /* border-color: #EBF6FF; */
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.clients{
+  margin: 8px 8px 0px 8px;
+}
+.brand-card{
+  margin: 24px 12px 24px 24px;
 
 }
+
+.card-p{
+  color: #6C6D6F;
+  font-family: "IBM Plex Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+margin: 8px 24px 0px 24px;
+}
+.card-h{
+  margin: 24px 24px 0px 24px;
+  color: #202124;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.cus-detals{
+  margin-top: -35px;
+}
+.clientniumimg{
+  width: 28px !important  ;
+}
+.clientmygateimg{
+  width: 100px !important;
+}
 .clientrezerimg{
-  width: 86px !important  ;
+  width: 58px ;
+}
+.cus-detal{
+  margin-top: 89px !important;
+
 }
 .customer-detail{
   background-color: #F8F8FA;
@@ -1375,7 +1434,9 @@ border-radius: 16px 16px 16px 16px;
 .owl-nav{
   display: none !important;
 }
-
+.client{
+  display: flex;
+}
 .clientimg{
   width: 28px !important;
 height: 38px !important;
@@ -1495,14 +1556,21 @@ color: #CB202D;
 margin-bottom: 10px;
   }
   .legals{
+    padding-bottom: 15px;
     border-bottom: solid #C8C9D14A 1px;
     margin-right: 53px;
+}
+.footer-bg{
+  background-color: #F8F8FA;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
   .legal{
     padding-left: 30px;
     border-left: 1px solid #C8C9D14A;
   }
   .companyAbout{
+    padding-bottom: 15px;
     border-bottom: solid #C8C9D14A 1px;
 }
   .company{
@@ -1594,6 +1662,7 @@ background-image: url(images/linkedin_hover.svg);
  display: flex;
 }
 .main-PRODUCTS{
+  padding-bottom: 15px;
  border-bottom: 1px solid#C8C9D14A ;
 }
 .SERVICES-L{
@@ -1606,6 +1675,7 @@ background-image: url(images/linkedin_hover.svg);
  margin: 0px;
 }
 .lists{
+  padding-bottom: 15px;
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
