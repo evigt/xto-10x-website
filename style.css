@@ -530,6 +530,18 @@ margin: 0px;
 .implement-p{
   margin: 0px;
 }
+.client-card:hover{
+    border: solid 2px #FF9696 !important ;
+    border-radius: 20px !important;
+}
+.owl-carousel .owl-item img{
+width: auto;
+}
+.div{
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+}
 .goal-h{
     display: flex ;
     display: flex;
